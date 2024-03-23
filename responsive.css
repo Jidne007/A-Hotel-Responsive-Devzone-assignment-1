@@ -1,0 +1,256 @@
+/*mobile*/
+@media(min-width:300px){
+    
+    .banner h2 {
+        font-size: 35px;
+        line-height: 63px;
+        margin-top: 207px;
+    }
+    .banner span {
+        
+        width: 210px;   
+    }
+    input[type="text"], input[type="email"], input[type="password"], textarea[type="message"] {
+        padding: 7px 4px; 
+    }
+    .social-icon i {
+        font-size: 21px;
+    }
+    .holiday span {
+        width: 230px;
+       
+    }
+    .SERVICE {
+        flex-direction: column;
+    }
+    .banner {
+        padding: 60px;
+        
+    }
+    .DETAILS {
+        padding: 11px;
+        display: flex;
+        flex-direction:column ;
+    }
+    .pera-img {
+        width: 354px;
+        border: 0;
+    }
+    .pera {
+        width: 352px;
+    }
+    .serve {
+        padding: 72px;
+    }
+    .romss {
+        padding: 64px;
+       
+    }
+    .ROOM {
+        padding: 0;
+        flex-direction: column;
+    }
+    .img1 p{
+        text-align: center;
+    }
+    .photos {
+       
+        padding: 15px;
+    }
+    .GALLERY {
+        
+        flex-direction:column ;
+    }
+    .gallery-item {
+        width: 347px;
+        
+    }
+    .contact {
+        padding: 19px;
+    }
+    .photo1 {
+        
+        height: 290px;
+    }
+}
+
+@media(min-width:576px) {
+    nav{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .DETAILS {
+        padding: 11px;
+        display: flex;
+        /*flex-direction:column ;*/
+    }
+    .pera-img {
+        width: 553px;
+        border: 0;
+    }
+    .pera {
+        width: 551px;
+    }
+    .ROOM {
+        padding: 0;
+        flex-direction: column;
+    }
+    .photos {
+       padding: 107px;
+    }
+    .GALLERY {
+        
+        flex-direction: column;
+    }
+    .img1 p{
+        text-align: center;
+    }
+
+}
+
+@media(min-width:768px){
+    .DETAILS {
+        padding: 99px;
+        display: flex;
+	/*flex-direction: colum;*/
+    }
+    .ROOM {
+        /* padding: 150px; */
+        flex-direction: column;
+    }
+    .romss {
+        padding: 44px;
+       
+    }
+    .photos {
+       
+        padding: 28px;
+    }
+    .img1 p {
+        
+        text-align: center;
+    }
+    .photos {
+        padding: 2px;
+     }
+     .GALLERY {
+         flex-direction: row;
+       justify-content: center;
+     }
+     .serve {
+        padding: 199px;
+    }
+    .photo1 {
+        
+        height: 579px;
+    }
+}
+
+@media(min-width:992px){
+    .head-main {
+        display: flex;
+        
+    }
+    .serve {
+        padding: 70px;
+    }
+
+    .romss {
+        padding: 100px;}
+
+        .ROOM {
+            padding: 23px;
+            flex-direction: row;
+            gap: 20px;
+        }
+    .photos {
+       
+        padding: 100px;
+    }
+
+.banner h2 {
+	font-size: 73px;
+	line-height: 120px;
+}
+input[type="text"], input[type="email"], input[type="password"], textarea[type="message"] {
+    padding: 7px 4px; 
+}
+.social-icon i {
+    font-size: 45px; 
+}
+
+.holiday span {
+    width: 741px;
+   
+}
+
+.SERVICE {
+    flex-direction: row;
+}
+.banner {
+    padding: 237px;
+    
+}
+.DETAILS {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: colum;
+}
+    
+
+
+}
+@media(min-width:1200px) {
+    
+    .pera {
+        float: right;
+        width: 514px;
+    }
+
+    .ROOM {
+        justify-content: space-around;
+        gap: 27px;
+    }
+    .DETAILS {
+        padding: 175px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .pera-img {
+        margin-right: 0;
+        width: 611px;
+    }
+   
+}
+@media(min-width:1400px){
+    .pera {
+        float: right;
+        width: 514px;
+    }
+    .DETAILS {
+        padding: 123px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pera-img {
+        margin-right: 0;
+        width: 611px;
+    }
+    nav ul li a {
+        
+        padding: 10px 33px;
+        
+    }
+    
+        
+   
+}
